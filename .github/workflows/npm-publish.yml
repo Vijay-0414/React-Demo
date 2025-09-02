@@ -3,7 +3,7 @@ name: Deploy React Portfolio to S3 + CloudFront
 on:
   push:
     branches:
-      - main   
+      - master   
 
 jobs:
   build-and-deploy:
