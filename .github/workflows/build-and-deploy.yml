@@ -9,7 +9,6 @@ on:
 
 jobs:
   build-and-deploy:
-    # run only if PR was merged AND the PR source branch was 'dev'
     if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'dev'
     runs-on: ubuntu-latest
 
