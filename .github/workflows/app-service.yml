@@ -1,6 +1,8 @@
 name: App-Services Deployment
 
 on:
+  push:
+    branches: [prod]
   workflow_dispatch:
     inputs:
       deploy_api_gateway:
